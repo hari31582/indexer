@@ -1,0 +1,8 @@
+servers1:
+   server: Google
+   base_url: www.google.com
+   records_per_page: 10
+servers2:
+   server: Bing
+   base_url: www.bing.com
+   records_per_page: 10

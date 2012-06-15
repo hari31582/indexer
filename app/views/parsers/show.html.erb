@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Keyword:</b>
+  <%= @parser.keyword_id %>
+</p>
+
+<p>
+  <b>Search server:</b>
+  <%= @parser.search_server_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @parser.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @parser.description %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @parser.url %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%= @parser.position %>
+</p>
+
+
+<%= link_to 'Edit', edit_parser_path(@parser) %> |
+<%= link_to 'Back', parsers_path %>

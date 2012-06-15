@@ -1,0 +1,33 @@
+<h1>Listing parsers</h1>
+
+<table>
+  <tr>
+    <th>Keyword</th>
+    <th>Search server</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Url</th>
+    <th>Position</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @parsers.each do |parser| %>
+  <tr>
+    <td><%= parser.keyword_id %></td>
+    <td><%= parser.search_server_id %></td>
+    <td><%= parser.title %></td>
+    <td><%= parser.description %></td>
+    <td><%= parser.url %></td>
+    <td><%= parser.position %></td>
+    <td><%= link_to 'Show', parser %></td>
+    <td><%= link_to 'Edit', edit_parser_path(parser) %></td>
+    <td><%= link_to 'Destroy', parser, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Parser', new_parser_path %>

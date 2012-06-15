@@ -1,0 +1,14 @@
+<h1>Search</h1>
+<div class="notice"><%= flash[:notice] %></div>
+<%= form_for(:parser, :url=>parsers_path , :html=>{:multipart=>true}) do  %>
+<div>
+  <label>Upload xml file</label>
+  <%= file_field_tag :xml_file  %>
+</div>
+<div>
+  <%= submit_tag "Upload" %>
+</div>
+
+<% end  %>
+
+

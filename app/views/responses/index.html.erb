@@ -1,0 +1,34 @@
+<div class="response">
+<div class="menu">
+ <%= render :partial=>"menu" %>
+</div>
+<div>
+
+<h1>Results</h1>
+
+<table>
+  <tr>
+    <th>Keyword</th>
+    
+    <th>Title</th>
+    <th>Description</th>
+    <th>Url</th>
+    <th>Position</th>
+    
+  </tr>
+
+<% @responses.each do |response| %>
+  <tr>
+    <td><%= response.keyword %></td>
+    <td><%= response.title %></td>
+    <td><%= response.description %></td>
+    <td><%= response.url %></td>
+    <td><%= response.position %></td>
+  </tr>
+<% end %>
+</table>
+
+</div>
+</div>
+
+

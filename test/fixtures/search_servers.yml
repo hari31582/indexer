@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  server: MyString
+  base_url: MyString
+  records_per_page: 1
+
+two:
+  server: MyString
+  base_url: MyString
+  records_per_page: 1

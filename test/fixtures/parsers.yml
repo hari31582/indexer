@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  keyword_id: 1
+  search_server_id: 1
+  title: MyString
+  description: MyText
+  url: MyString
+  position: 1
+
+two:
+  keyword_id: 1
+  search_server_id: 1
+  title: MyString
+  description: MyText
+  url: MyString
+  position: 1

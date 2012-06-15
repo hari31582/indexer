@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/C:/haribhau_ingale/projects/search_parser/app/controllers/responses_controller.rb</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/app/views/layouts/application.html.erb</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/test/performance/browsing_test.rb</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/config/routes.rb</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/app/views/shared/_tabs.html.erb</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/app/assets/stylesheets/application.css</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/app/views/responses/_menu.html.erb</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/app/views/responses/index.html.erb</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/config/bootstrap/search_servers.yml</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/config/database.yml</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/test/fixtures/parsers.yml</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/lib/tasks/search.rake</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/app/models/search_server.rb</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/lib/search/a_p_i_connector.rb</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/lib/search/search_engine.rb</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/app/controllers/parsers_controller.rb</file>
+        <file>file:/C:/haribhau_ingale/projects/search_parser/lib/search/async_request.rb</file>
+    </open-files>
+</project-private>

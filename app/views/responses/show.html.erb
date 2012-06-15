@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Keyword:</b>
+  <%= @response.keyword_id %>
+</p>
+
+<p>
+  <b>Search server:</b>
+  <%= @response.search_server_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @response.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @response.description %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @response.url %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%= @response.position %>
+</p>
+
+
+<%= link_to 'Edit', edit_response_path(@response) %> |
+<%= link_to 'Back', responses_path %>

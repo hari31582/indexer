@@ -1,0 +1,4 @@
+<ul>
+  <li <% if controller.controller_name=="parsers" %> class="active" <% end %>><%=  link_to "Search" , new_parser_path %></li>
+  <li <% if controller.controller_name=="responses" %> class="last_active" <% end %>><%=  link_to "Results" , responses_path %></li>
+</ul>
